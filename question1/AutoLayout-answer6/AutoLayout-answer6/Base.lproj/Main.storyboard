@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="AutoLayout_answer6" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M7c-7L-E4J">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <color key="backgroundColor" red="0.81960784310000001" green="0.2470588235" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="piD-Fi-uiZ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r3r-eL-aeA">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="Bab-0x-NzX"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxt-pe-ddU">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AL0-ba-PcG">
+                                        <rect key="frame" x="98" y="187" width="180" height="180"/>
+                                        <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="180" id="Db1-Fl-2g7"/>
+                                            <constraint firstAttribute="height" constant="180" id="oeO-Gz-s5w"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerX" secondItem="AL0-ba-PcG" secondAttribute="centerX" id="Dga-Uc-cnI"/>
+                                    <constraint firstAttribute="centerY" secondItem="AL0-ba-PcG" secondAttribute="centerY" id="eUW-Eo-LTe"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gxt-pe-ddU" firstAttribute="top" secondItem="M7c-7L-E4J" secondAttribute="bottom" id="2qP-0h-PEd"/>
+                            <constraint firstItem="r3r-eL-aeA" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="47K-Kc-VhB"/>
+                            <constraint firstItem="r3r-eL-aeA" firstAttribute="top" secondItem="gxt-pe-ddU" secondAttribute="bottom" id="Qfd-JY-m8o"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="r3r-eL-aeA" secondAttribute="bottom" id="YkU-lJ-i4o"/>
+                            <constraint firstAttribute="trailing" secondItem="gxt-pe-ddU" secondAttribute="trailing" id="oVU-IC-upz"/>
+                            <constraint firstAttribute="trailing" secondItem="M7c-7L-E4J" secondAttribute="trailing" id="suZ-Se-bCs"/>
+                            <constraint firstAttribute="trailing" secondItem="r3r-eL-aeA" secondAttribute="trailing" id="th8-bf-yhR"/>
+                            <constraint firstItem="M7c-7L-E4J" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="z06-hg-FUf"/>
+                            <constraint firstItem="M7c-7L-E4J" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="zJi-f6-BB4"/>
+                            <constraint firstItem="gxt-pe-ddU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="zXh-nk-M9Y"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="330.5" y="361.5"/>
+        </scene>
+    </scenes>
+</document>
