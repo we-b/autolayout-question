@@ -14,11 +14,11 @@
 		<string>github.com:we-b/autolayout-question.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>question1/AutoLayout-answer1/AutoLayout-answer1.xcodeproj</string>
+	<string>AutoLayout-answer1/AutoLayout-answer1.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>49FA685551D572019F660BD530F3EB975600CDDF</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:we-b/autolayout-question.git</string>

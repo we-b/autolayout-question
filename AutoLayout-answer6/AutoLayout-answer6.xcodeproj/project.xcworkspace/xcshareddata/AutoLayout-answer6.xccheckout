@@ -7,18 +7,18 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E717C49C-EF39-4FEA-A678-4842B079C490</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>AutoLayout-answer6</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>49FA685551D572019F660BD530F3EB975600CDDF</key>
 		<string>github.com:we-b/autolayout-question.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>question1/AutoLayout-answer6/AutoLayout-answer6.xcodeproj/project.xcworkspace</string>
+	<string>AutoLayout-answer6/AutoLayout-answer6.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>49FA685551D572019F660BD530F3EB975600CDDF</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:we-b/autolayout-question.git</string>
